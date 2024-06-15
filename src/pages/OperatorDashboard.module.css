@@ -1,0 +1,455 @@
+.text,
+.upcomingMatches {
+  position: relative;
+  line-height: 22px;
+}
+.upcomingMatches {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}
+.text {
+  white-space: nowrap;
+}
+.cardBody {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-red);
+}
+.frameChild {
+  height: 151px;
+  width: 240px;
+  position: relative;
+  background-color: var(--neutral-1);
+  display: none;
+}
+.image11Icon,
+.vs {
+  position: relative;
+  z-index: 1;
+}
+.image11Icon {
+  height: 98px;
+  width: 68.7px;
+  object-fit: cover;
+}
+.vs {
+  line-height: 22px;
+  font-weight: 800;
+}
+.vsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-48xl) 0 0;
+}
+.image12Icon {
+  height: 94.6px;
+  width: 78.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  background-color: var(--neutral-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: 15.1px;
+  color: var(--neutral-13);
+}
+.matchTitleTwo {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.texttext,
+.texttextWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext {
+  flex: 1;
+  overflow: hidden;
+}
+.texttextWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-base);
+}
+.matchLocationTwo {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.texttext1,
+.texttextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext1 {
+  flex: 1;
+  overflow: hidden;
+}
+.texttextContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+}
+.matchTimeTwo {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.texttext2 {
+  flex: 1;
+  overflow: hidden;
+}
+.layoutblockshorizontal2,
+.layoutblockshorizontal2Wrapper,
+.texttext2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.layoutblockshorizontal2 {
+  flex: 1;
+  padding: var(--padding-8xs) var(--padding-12xs);
+}
+.layoutblockshorizontal2Wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+  color: var(--character-secondary-45);
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text1 {
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  font-family: var(--body-regular);
+  color: var(--neutral-1);
+  text-align: center;
+}
+.button,
+.cardlegacy {
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-blue);
+  padding: var(--padding-10xs) var(--padding-xl);
+  background-color: var(--color-blue);
+  align-self: stretch;
+  box-shadow: var(--drop-shadow-button-primary);
+  flex-direction: row;
+  justify-content: center;
+}
+.cardlegacy {
+  width: 284px;
+  background-color: var(--neutral-1);
+  border: 1px solid var(--conditional-divider);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-2xl) var(--padding-lg);
+}
+.teamName {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.teamNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-red);
+}
+.frameItem {
+  height: 151px;
+  width: 240px;
+  position: relative;
+  background-color: var(--neutral-1);
+  display: none;
+}
+.image11Icon1,
+.vs1 {
+  position: relative;
+  z-index: 1;
+}
+.image11Icon1 {
+  height: 98px;
+  width: 68.7px;
+  object-fit: cover;
+}
+.vs1 {
+  line-height: 22px;
+  font-weight: 800;
+}
+.vsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-48xl) 0 0;
+}
+.image12Icon1 {
+  height: 94.6px;
+  width: 78.3px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  background-color: var(--neutral-1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: 15.1px;
+  color: var(--neutral-13);
+}
+.matchTitle {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.texttext3,
+.texttextFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext3 {
+  flex: 1;
+  overflow: hidden;
+}
+.texttextFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-base);
+}
+.matchLocation {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.frameDiv,
+.texttext4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext4 {
+  flex: 1;
+  overflow: hidden;
+}
+.frameDiv {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+}
+.matchTime {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.texttext5 {
+  flex: 1;
+  overflow: hidden;
+}
+.layoutblockshorizontal21,
+.layoutblockshorizontal2Container,
+.texttext5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.layoutblockshorizontal21 {
+  flex: 1;
+  padding: var(--padding-8xs) var(--padding-12xs);
+}
+.layoutblockshorizontal2Container {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+  color: var(--character-secondary-45);
+}
+.wrapperIcon1 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper1 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text2 {
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  font-family: var(--body-regular);
+  color: var(--neutral-1);
+  text-align: center;
+}
+.button1 {
+  cursor: pointer;
+  border: 1px solid var(--color-blue);
+  padding: var(--padding-10xs) var(--padding-xl);
+  background-color: var(--color-blue);
+  align-self: stretch;
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.body,
+.button1,
+.cardlegacy1 {
+  display: flex;
+  align-items: flex-start;
+}
+.body {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-3xl) var(--padding-xl);
+  gap: var(--gap-5xs);
+}
+.cardlegacy1 {
+  width: 284px;
+  border-radius: var(--br-11xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--conditional-divider);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.cardlegacy1,
+.matchesList,
+.operatorDashboard1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.operatorDashboard1 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 0 396px;
+  gap: 12px;
+  max-width: 100%;
+}
+.matchesList {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xs);
+  font-size: var(--body-regular-size);
+  color: var(--character-title-85);
+}
+.matchesList,
+.operatorDashboardInner,
+.upcomingMatchesParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.upcomingMatchesParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-13);
+  font-family: var(--body-regular);
+}
+.operatorDashboardInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) 0 var(--padding-8xl);
+  box-sizing: border-box;
+}
+.operatorDashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .operatorDashboard1 {
+    padding-bottom: 257px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .upcomingMatches {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .body {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .operatorDashboard1 {
+    padding-bottom: 167px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,72 @@
+.emptyStateBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+}
+.componentsemptyImgGrayIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.noData {
+  position: relative;
+  line-height: 30.73px;
+}
+.emptybasic,
+.noDataWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.noDataWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+}
+.emptybasic {
+  align-self: stretch;
+  width: 169px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-smi-5);
+  z-index: 1;
+}
+.emptyStateBackgroundParent,
+.livebetdataemptystate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emptyStateBackgroundParent {
+  align-self: stretch;
+  flex: 1;
+  justify-content: center;
+  padding: var(--padding-175xl) var(--padding-xl) var(--padding-174xl-2);
+  box-sizing: border-box;
+  position: relative;
+}
+.livebetdataemptystate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-lgi-6);
+  color: var(--character-title-85);
+  font-family: var(--body-regular);
+}
