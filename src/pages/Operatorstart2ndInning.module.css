@@ -1,0 +1,933 @@
+.bgIcon {
+  width: 1441px;
+  height: 645px;
+  position: absolute;
+  margin: 0 !important;
+  top: 110px;
+  right: -1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logoIcon,
+.searchIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoIcon {
+  height: 56.7px;
+  width: 88px;
+  object-fit: cover;
+}
+.searchIcon {
+  width: 14px;
+  height: 14px;
+}
+.iconWrapper {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.questioncircleIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper1 {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.bellIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.number {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+}
+.badge {
+  border-radius: var(--br-81xl);
+  background-color: var(--dust-red-5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.badgecount {
+  background-color: var(--hitbox);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.offset {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+}
+.badgeWrapper,
+.badgeonIcon,
+.offset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badgeWrapper {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.badgeonIcon {
+  padding: var(--padding-xs);
+}
+.settingIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper2 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.settingsCaption {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  color: inherit;
+  white-space: nowrap;
+}
+.layoutblockshorizontal2,
+.settingsLabel,
+.texttext {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext {
+  overflow: hidden;
+  flex-direction: row;
+}
+.layoutblockshorizontal2,
+.settingsLabel {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.layoutblockshorizontal2 {
+  flex-direction: row;
+  padding: var(--padding-xs);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  font-family: var(--body-regular);
+}
+.languageIcon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper3 {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.header1,
+.headerContent,
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header1,
+.headerContent {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-7);
+}
+.header1 {
+  align-self: stretch;
+  height: 56px;
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-mid) var(--padding-10xs-3)
+    var(--padding-20xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--footnote-system-monospace-size);
+  color: var(--neutral-1);
+  font-family: var(--footnote-system-monospace);
+}
+.matchBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-1);
+}
+.a,
+.wrapperIcon {
+  position: relative;
+}
+.a {
+  line-height: 22px;
+  font-weight: 500;
+  z-index: 0;
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button,
+.iconWrapper4 {
+  overflow: hidden;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.iconWrapper4 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 7px);
+  background-color: var(--primary-6);
+  flex-direction: column;
+  z-index: 1;
+}
+.button {
+  height: 40px;
+  width: 164px;
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-81xl);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--color-blue);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: center;
+}
+.image11Icon {
+  align-self: stretch;
+  width: 45.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 62px;
+}
+.vs {
+  position: relative;
+  line-height: 13.96px;
+  font-weight: 800;
+}
+.versusLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-23xl-5) 0 0;
+}
+.image12Icon {
+  height: 60px;
+  width: 51.6px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Parent {
+  gap: var(--gap-3xs-9);
+}
+.image11Parent,
+.teamsWrapper,
+.teamsWrapperInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.teamsWrapper {
+  flex-direction: column;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.teamNameLabels {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+}
+.texttext1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+}
+.texttext2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--body-regular-size);
+}
+.teamNames,
+.texttextParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.teamNames {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+  box-sizing: border-box;
+  min-width: 140px;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.text1 {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.stadiumName,
+.texttext3 {
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.texttext3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.stadiumName {
+  margin-top: -3px;
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.locationValue {
+  align-self: stretch;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.matchLocation,
+.texttextGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.matchLocation {
+  width: 201.4px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  box-sizing: border-box;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.teamsContainer {
+  width: 589.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base-6);
+  max-width: 100%;
+  font-size: var(--font-size-4xs-9);
+  color: var(--neutral-13);
+}
+.text2 {
+  position: relative;
+  line-height: 22px;
+}
+.texttext4,
+.timeLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext4 {
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.timeLabel {
+  padding: 0 var(--padding-12xs);
+}
+.matchEndTime {
+  margin-top: -3px;
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  white-space: nowrap;
+}
+.matchTime,
+.timeLabelParent,
+.timeValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeValue {
+  height: 37px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.matchTime,
+.timeLabelParent {
+  flex-direction: column;
+}
+.matchTime {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  color: var(--character-secondary-45);
+}
+.buttonParent,
+.headermatch {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.buttonParent {
+  width: 1153.3px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.headermatch {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xl) var(--padding-xs-8);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.breakBackground,
+.matchHeader {
+  align-self: stretch;
+  max-width: 100%;
+}
+.matchHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-109xl);
+  box-sizing: border-box;
+}
+.breakBackground {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+}
+.coins,
+.totalEarnings {
+  position: absolute;
+  top: 17.76%;
+  left: 0;
+}
+.coins {
+  top: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.totalEarningsParent {
+  position: absolute;
+  height: 345.27%;
+  width: 15.01%;
+  top: 100%;
+  right: 84.99%;
+  bottom: -345.27%;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.coins1,
+.totalLosses {
+  position: absolute;
+  top: 23.78%;
+  left: 0;
+}
+.coins1 {
+  top: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.totalLossesParent {
+  position: absolute;
+  height: 257.88%;
+  width: 15.01%;
+  top: 100%;
+  right: 23.7%;
+  bottom: -257.88%;
+  left: 61.29%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.frameGroup {
+  position: absolute;
+  height: 41.23%;
+  width: 100%;
+  top: 58.71%;
+  right: 0;
+  bottom: 0.06%;
+  left: 0;
+  font-size: var(--font-size-lg);
+}
+.div {
+  font-weight: 800;
+}
+.div,
+.totalMatches,
+.totalMatchesWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.totalMatchesWrapper {
+  height: 203.44%;
+  width: 20.77%;
+  top: 99.84%;
+  right: 79.23%;
+  bottom: -203.29%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  font-size: var(--font-size-lg);
+}
+.parent {
+  position: absolute;
+  height: 37.74%;
+  width: 27.96%;
+  top: 0;
+  right: 71.4%;
+  bottom: 62.26%;
+  left: 0.65%;
+}
+.div1 {
+  font-weight: 800;
+}
+.div1,
+.usersPlayed,
+.usersPlayedWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.usersPlayedWrapper {
+  height: 181.53%;
+  width: 23.28%;
+  top: 99.84%;
+  right: 76.72%;
+  bottom: -181.38%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  font-size: var(--font-size-lg);
+}
+.group {
+  position: absolute;
+  height: 37.74%;
+  width: 24.95%;
+  top: 0;
+  right: 32.9%;
+  bottom: 62.26%;
+  left: 42.15%;
+}
+.div2 {
+  font-weight: 800;
+}
+.div2,
+.totalBets,
+.totalBetsWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.totalBetsWrapper {
+  height: 137.72%;
+  width: 30.68%;
+  top: 99.84%;
+  right: 69.32%;
+  bottom: -137.56%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  font-size: var(--font-size-lg);
+}
+.container {
+  position: absolute;
+  height: 37.74%;
+  width: 18.92%;
+  top: 0;
+  right: 0;
+  bottom: 62.26%;
+  left: 81.08%;
+}
+.frameParent {
+  height: 169.3px;
+  width: 465px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.firstInningSummery {
+  width: 227px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--neutral-13);
+  display: none;
+}
+.stInningSummery {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 2;
+  font-family: var(--font-poppins);
+}
+.breakHeading {
+  position: absolute;
+  margin: 0 !important;
+  right: -13px;
+  bottom: -62.5px;
+  line-height: 91.53px;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 3;
+}
+.breakSubheading {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50.34px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--character-secondary-45);
+  z-index: 3;
+}
+.breakTitle,
+.sitBackAnd {
+  margin: 0 !important;
+  position: absolute;
+}
+.breakTitle {
+  top: 136px;
+  left: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-13xl);
+  color: var(--character-title-85);
+}
+.sitBackAnd {
+  top: 78px;
+  right: 88px;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--neutral-13);
+  z-index: 3;
+}
+.breakInfo {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.wrapperIcon1 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper5 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text3 {
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  font-family: var(--body-regular);
+  color: var(--neutral-1);
+  text-align: center;
+}
+.button1,
+.watchLiveButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-2xl);
+  background-color: var(--color-blue);
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.watchLiveButton {
+  width: 561px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.breakInnerWrapper,
+.breakWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.breakInnerWrapper {
+  width: 584px;
+  flex-direction: column;
+  gap: var(--gap-25xl);
+}
+.breakWrapper {
+  flex: 1;
+  flex-direction: row;
+}
+.questionIcon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsecondarycirclelarge {
+  width: 36px;
+  height: 36px;
+  box-shadow: var(--drop-shadow-015);
+  border-radius: var(--br-81xl);
+  background-color: var(--neutral-1);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+}
+.breakContent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 185px;
+  max-width: 100%;
+}
+.inningBreak {
+  width: 1065px;
+  height: 588px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-58xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-9xl);
+  color: var(--color-gray-200);
+}
+.operatorstart2ndInning {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--color-blue);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 1050px) {
+  .inningBreak {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .buttonParent {
+    flex-wrap: wrap;
+  }
+  .breakHeading,
+  .coins,
+  .coins1 {
+    font-size: var(--font-size-7xl);
+  }
+  .breakHeading {
+    line-height: 73px;
+  }
+  .breakContent {
+    gap: 92px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .teamsContainer {
+    flex-wrap: wrap;
+  }
+  .breakInnerWrapper {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .coins,
+  .coins1 {
+    font-size: var(--font-size-lgi);
+  }
+  .div,
+  .div1,
+  .div2 {
+    font-size: var(--font-size-3xl);
+  }
+  .breakHeading,
+  .firstInningSummery {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .breakHeading {
+    line-height: 55px;
+  }
+  .breakSubheading {
+    font-size: var(--font-size-base);
+    line-height: 40px;
+  }
+  .sitBackAnd {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .breakContent {
+    gap: 46px;
+  }
+}

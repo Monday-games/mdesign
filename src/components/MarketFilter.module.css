@@ -1,0 +1,16 @@
+.marketFilter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--neutral-13);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,327 @@
+.matchHeaderBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-1);
+}
+.image11Icon {
+  align-self: stretch;
+  width: 45.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 62px;
+}
+.vs {
+  position: relative;
+  line-height: 13.96px;
+  font-weight: 800;
+}
+.matchStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-23xl-5) 0 0;
+}
+.image12Icon {
+  height: 60px;
+  width: 51.6px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Parent,
+.matchHeaderContentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image11Parent {
+  gap: var(--gap-3xs-9);
+}
+.matchHeaderContentInner {
+  z-index: 1;
+}
+.matchNameValue {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+}
+.texttext {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tournamentNameValue {
+  position: relative;
+  line-height: 22px;
+}
+.texttext1,
+.tournamentName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.texttext1 {
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.tournamentName {
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+  font-size: var(--body-regular-size);
+}
+.matchDetails,
+.texttextParent {
+  display: flex;
+  flex-direction: column;
+}
+.texttextParent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.matchDetails {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xl) var(--padding-8xs-2) 0;
+  box-sizing: border-box;
+  min-width: 135px;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.text {
+  position: relative;
+  line-height: 22px;
+}
+.texttext2,
+.texttextWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext2 {
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.texttextWrapper {
+  padding: 0 var(--padding-12xs);
+}
+.text1 {
+  margin-top: -3px;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  white-space: nowrap;
+}
+.textWrapper {
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.frameParent,
+.matchScore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  justify-content: flex-start;
+  z-index: 1;
+}
+.matchScore {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.matchHeaderContent {
+  width: 550.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl-2);
+  max-width: 100%;
+}
+.timeLabelValue {
+  position: relative;
+  line-height: 22px;
+}
+.texttext3,
+.timeLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext3 {
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.timeLabel {
+  padding: 0 var(--padding-12xs);
+}
+.text2 {
+  margin-top: -3px;
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  white-space: nowrap;
+}
+.timeLabelParent,
+.timeValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeValue {
+  height: 37px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-red);
+}
+.timeLabelParent {
+  flex-direction: column;
+  z-index: 1;
+}
+.a,
+.wrapperIcon {
+  position: relative;
+}
+.a {
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--neutral-1);
+  text-align: center;
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--primary-6);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.actionButton,
+.button {
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-14xl);
+  background-color: var(--color-blue);
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.actionButton {
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.actionButton,
+.matchTime,
+.time {
+  display: flex;
+  align-items: flex-start;
+}
+.time {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-27xl-7);
+}
+.matchTime {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.headermatch,
+.headermatchWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headermatch {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-xs-8)
+    var(--padding-3xl);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.headermatchWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-4xs-9);
+  color: var(--neutral-13);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 975px) {
+  .headermatch {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .matchHeaderContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .time {
+    gap: var(--gap-4xl);
+  }
+}

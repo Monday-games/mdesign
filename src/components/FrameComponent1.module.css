@@ -1,0 +1,536 @@
+.logoIcon,
+.searchIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoIcon {
+  height: 56.7px;
+  width: 88px;
+  object-fit: cover;
+}
+.searchIcon {
+  width: 14px;
+  height: 14px;
+}
+.iconWrapper {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.questioncircleIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper1 {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.bellIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.number {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+}
+.badge {
+  border-radius: var(--br-81xl);
+  background-color: var(--dust-red-5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+}
+.badgecount {
+  background-color: var(--hitbox);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.offset {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+}
+.badgeWrapper,
+.badgeonIcon,
+.offset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badgeWrapper {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.badgeonIcon {
+  padding: var(--padding-xs);
+}
+.settingIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper2 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.name {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  color: inherit;
+  white-space: nowrap;
+}
+.layoutblockshorizontal2,
+.texttext,
+.user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext {
+  overflow: hidden;
+  flex-direction: row;
+}
+.layoutblockshorizontal2,
+.user {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.layoutblockshorizontal2 {
+  flex-direction: row;
+  padding: var(--padding-xs);
+  text-align: left;
+  font-size: var(--body-regular-size);
+  font-family: var(--body-regular);
+}
+.languageIcon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper3 {
+  height: 32px;
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.header1,
+.headerRight,
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header1,
+.headerRight {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-7);
+}
+.header1 {
+  align-self: stretch;
+  height: 56px;
+  background-color: var(--color-midnightblue);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-mid) var(--padding-10xs-3)
+    var(--padding-20xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--footnote-system-monospace-size);
+  color: var(--neutral-1);
+  font-family: var(--footnote-system-monospace);
+}
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-1);
+}
+.image11Icon {
+  align-self: stretch;
+  width: 45.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 62px;
+}
+.vs {
+  position: relative;
+  line-height: 13.96px;
+  font-weight: 800;
+}
+.matchType {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-23xl-5) 0 0;
+}
+.image12Icon {
+  height: 60px;
+  width: 51.6px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Parent {
+  gap: var(--gap-3xs-9);
+}
+.image11Parent,
+.teamLogos,
+.teamLogosInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.teamLogos {
+  flex-direction: column;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.content {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+.texttext1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.texttext2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--body-regular-size);
+}
+.matchInfo,
+.texttextParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.matchInfo {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.text1 {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.texttext3,
+.value {
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.texttext3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.value {
+  margin-top: -3px;
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.timeRemaining {
+  align-self: stretch;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.matchStatus,
+.texttextGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.matchStatus {
+  width: 201.4px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  box-sizing: border-box;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.teamsWrapper {
+  width: 589.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base-6);
+  max-width: 100%;
+}
+.text2 {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.firstButton,
+.texttext4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext4 {
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.firstButton {
+  padding: 0 var(--padding-12xs);
+}
+.value1 {
+  margin-top: -3px;
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  white-space: nowrap;
+}
+.firstButtonParent,
+.secondButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondButton {
+  height: 37px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--character-title-85);
+}
+.firstButtonParent {
+  flex-direction: column;
+}
+.a,
+.wrapperIcon {
+  position: relative;
+}
+.a {
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--color-blue);
+  text-align: center;
+  white-space: nowrap;
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper4 {
+  background-color: var(--primary-6);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.actionButton,
+.button {
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-blue);
+  padding: var(--padding-6xs) var(--padding-17xl);
+  background-color: var(--neutral-1);
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.actionButton {
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.actionButton,
+.buttonsWrapper,
+.statusButtons {
+  display: flex;
+  align-items: flex-start;
+}
+.buttonsWrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-32xl-7);
+}
+.statusButtons {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.teamsWrapperParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.header1Parent,
+.headermatch {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headermatch {
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-3xl) var(--padding-xs-8);
+  box-sizing: border-box;
+  position: relative;
+}
+.header1Parent {
+  flex-direction: column;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-4xs-9);
+  color: var(--neutral-13);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 1225px) {
+  .texttext2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .text,
+  .timeRemaining {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .texttextGroup,
+  .value {
+    display: none;
+  }
+  .matchStatus {
+    width: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonsWrapper {
+    gap: var(--gap-7xl);
+  }
+}
